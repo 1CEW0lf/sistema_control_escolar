@@ -1,2 +1,3 @@
-# sistema_control_escolar
-Sistema de control escolar
+# Sistema de control escolar
+
+author: Elsa Serrano @1CEW0lf
