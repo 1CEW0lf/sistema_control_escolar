@@ -17,7 +17,7 @@ def estudiantes():
         for line in lines:
             print(line)
             matricula, nombre, ap_paterno, ap_materno = line.split('|')
-            estudiante = Estudiante(matricula, nombre, ap_paterno, ap_materno)
+            estudiante = estudiante(matricula, nombre, ap_paterno, ap_materno)
             estudiantes.append(estudiante)
 
     return render_template('estudiantes.html', data=estudiantes)
