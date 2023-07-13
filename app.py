@@ -30,7 +30,7 @@ def materias():
         {"materias": "Inglés"},
         {"materias": "Matemáticas"},
         {"materias": "Geografía"},
-        {"materias": "Filosofía"}
+        {"materias": "Informatica"}
         
     ]
     return render_template('materias.html', data=data)
