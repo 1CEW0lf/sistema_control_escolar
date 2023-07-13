@@ -23,5 +23,18 @@ def estudiantes():
     return render_template('estudiantes.html', data=data)
 
 
+@app.route('/materias')
+def materias():
+    data = [
+        {"materias": "Español"},
+        {"materias": "Inglés"},
+        {"materias": "Matemáticas"},
+        {"materias": "Geografía"},
+        {"materias": "Filosofía"}
+        
+    ]
+    return render_template('materias.html', data=data)
+
+
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=8888, debug=True)
